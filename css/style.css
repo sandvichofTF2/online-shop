@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(245, 162, 98);
+}
+.menu{
+    position:fixed;
+    display: flex;
+    background-color: white;
+    width:100%;
+    justify-content:space-between;
+    align-items: center;
+    top:0;
+}
+.menu-main ul{
+    display: flex;
+}
+.menu-main ul li {
+    list-style: none;
+    padding: 10px
+}
+
+.logo{
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
+
+.logo img{
+    width: 125px;
+}
+.book{
+    height: 1000px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap :wrap;
+    margin-top: 100px;
+}
+footer{
+
+    text-align: center;
+    background-color: whitesmoke;
+    padding-bottom: 1px;
+}
+.card{
+    width: 200px;
+    background-color: white;
+    box-shadow: 15px 15px 15px 0 rgb(0,0,0);
+    border-radius: 10px;
+    float: left;
+    margin-left: 50px;
+    
+}
+.card h1{
+    text-align: center;
+}
+.card p{
+    text-align: center;
+}
+.card img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: whitesmoke;
+}
